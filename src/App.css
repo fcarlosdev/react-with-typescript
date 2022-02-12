@@ -1,0 +1,82 @@
+.App {
+  height: 100%;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding:2rem 1rem 
+}
+
+ul {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.list {
+  flex: 1;
+  height: 20px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+
+.list p {
+  font-size: 12px;
+  flex: 1;
+}
+
+.list p:nth-child(2) {
+  flex: 3;
+  text-align: center;
+}
+
+.list p:last-child {
+  flex: 2;
+  text-align: justify;
+}
+
+.list-header {
+  flex: 1 0 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-header h2 {
+  padding: 0;
+  font-size: 1em;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.addto-list {
+  flex: 1;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addto-list-input {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.addto-list-btn {
+  flex: 1;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: cadetblue;
+}
